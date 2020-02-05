@@ -1,3 +1,7 @@
+## Portfolio
+
+This is my portfolio that I'm in the process of building. It isn't live yet, but hopefully it will be soon.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
