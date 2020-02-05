@@ -5,7 +5,7 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-                <h3>Xander Krause</h3>
+                <h3 className = "name">Xander Krause</h3>
             </div>
         );
     }

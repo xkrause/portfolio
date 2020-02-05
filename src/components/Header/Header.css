@@ -1,11 +1,11 @@
-h3 {
+.name {
     text-align: left;
     padding-top: 10px;
     padding-left: 20px;
     font-size: 30px;
     font-family: Arial;
     font-weight: normal;
-    color: gray;
+    color: whitesmoke;
 }
 
 @media (max-width: 500px) {
