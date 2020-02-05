@@ -9,7 +9,6 @@ ul {
 }
 
 li {
-    font-size: 15px;
     font-weight: normal;
     font-family: Arial;
     display: inline;
@@ -18,4 +17,10 @@ li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    ul {
+        padding: 10px;
+    }
 }
