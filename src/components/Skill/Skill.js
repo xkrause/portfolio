@@ -4,7 +4,7 @@ import './Skill.css';
 class Skill extends React.Component {
     render() {
         return (
-            <div className = "skill btn btn-info filter-button" data-filter = {this.props.filter}>
+            <div className = "skill btn btn-info">
                 {this.props.skill}
             </div>
         );

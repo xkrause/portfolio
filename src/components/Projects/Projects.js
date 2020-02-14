@@ -70,12 +70,7 @@ class Projects extends React.Component {
         return (
             <div>
                 <div className = "container-fluid d-flex justify-content-left">
-                    <button type = "button" onClick = {this.onShowAll}>All</button>
-                    <button type = "button" onClick = {this.onClear}>Clear</button>
-                    <button type = "button" onClick = {this.onShowJamming}>Jamming</button>
-                    <button type = "button" onClick = {this.onShowRavenous}>Ravenous</button>
-                    <button type = "button" onClick = {this.onShowVault}>Odin's Vault</button>
-                    <button type = "button" onClick = {this.onShowReact}>React</button>
+                    <Skills />
                 </div>
                 <div className = "container-fluid d-flex justify-content-center">
                     {
