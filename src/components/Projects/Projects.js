@@ -35,15 +35,36 @@ class Projects extends React.Component {
 
         this.onShowAll = this.onShowAll.bind(this);
         this.onClear = this.onClear.bind(this);
+        this.onShowJamming = this.onShowJamming.bind(this);
+        this.onShowRavenous = this.onShowRavenous.bind(this);
+        this.onShowVault = this.onShowVault.bind(this);
+        this.onShowReact = this.onShowReact.bind(this);
     }
 
     onShowAll = () => {
         this.setState({projects});
-    };
+    }
 
     onClear = () => {
         this.setState({projects: []});
-    };
+    }
+
+    onShowJamming = () => {
+        this.setState({projects: [{"id": "1", "title": "Jamming", "image": Pic, "text": "This connects to the Spotify API, a Codecademy Project"}]});
+    }
+
+    onShowRavenous = () => {
+        this.setState({projects: [{"id": "2", "title": "Ravenous", "image": Pic, "text": "This connects to the Yelp API, a Codecademy Project"}]});
+    }
+
+    onShowVault = () => {
+        this.setState({projects: [{"id": "3", "title": "Odin's Vault", "image": Pic, "text": "Comic book db, to be built"}]});
+    }
+
+    onShowReact = () => {
+        this.setState({projects: [{"id": "1", "title": "Jamming", "image": Pic, "text": "This connects to the Spotify API, a Codecademy Project"},
+                                    {"id": "2", "title": "Ravenous", "image": Pic, "text": "This connects to the Yelp API, a Codecademy Project"}]});
+    }
 
     render() {
         return (
@@ -51,6 +72,10 @@ class Projects extends React.Component {
                 <div className = "container-fluid d-flex justify-content-left">
                     <button type = "button" onClick = {this.onShowAll}>All</button>
                     <button type = "button" onClick = {this.onClear}>Clear</button>
+                    <button type = "button" onClick = {this.onShowJamming}>Jamming</button>
+                    <button type = "button" onClick = {this.onShowRavenous}>Ravenous</button>
+                    <button type = "button" onClick = {this.onShowVault}>Odin's Vault</button>
+                    <button type = "button" onClick = {this.onShowReact}>React</button>
                 </div>
                 <div className = "container-fluid d-flex justify-content-center">
                     {
