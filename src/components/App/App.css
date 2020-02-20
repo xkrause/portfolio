@@ -3,5 +3,10 @@
 }
 
 body {
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
+    background: url(../../img/textured-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

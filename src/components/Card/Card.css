@@ -1,7 +1,12 @@
 .card {
     background-color: white;
-    margin-top: 0;
+    margin: 20px 10px;
     text-align: center;
+}
+
+.card-text-text-secondary {
+    font-size: 15px;
+    text-align: left;
 }
 
 .card:hover {

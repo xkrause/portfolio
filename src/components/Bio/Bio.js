@@ -6,7 +6,7 @@ class Bio extends React.Component {
         return (
             <div className = "container">
                 <h2>About Me</h2>
-                <p>The bio will go here</p>
+                <p>Bio will go here</p>
             </div>
         );
     }
