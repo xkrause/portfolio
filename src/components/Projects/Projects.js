@@ -78,11 +78,11 @@ class Projects extends React.Component {
         this.onShowReact = this.onShowReact.bind(this);
         this.onShowBootstrap = this.onShowBootstrap.bind(this);
         this.onShowSchoolProjects = this.onShowSchoolProjects.bind(this);*/
-        this.handleClick = this.handleClick.bind(this);
+        this.showModal = this.showModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
     }
 
-    handleClick = () => {
+    showModal = () => {
         this.setState({show: true});
     }
 
@@ -183,7 +183,7 @@ class Projects extends React.Component {
                 </div>*/}
 
                 <div className = "container-fluid d-flex justify-content-left">
-                    <Button onClick = {this.handleClick}>Open Modal</Button>
+                    <Button onClick = {this.showModal}>Open Modal</Button>
                     <Modal show = {this.state.show}>
                         <Modal.Header closeButton onClick = {this.closeModal}>Header</Modal.Header>
                         <Modal.Body>Hey we're in the modal body now yayyy</Modal.Body>
