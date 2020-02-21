@@ -3,6 +3,7 @@ import './Projects.css';
 import Pic from "../../img/yellow-and-black-striped-3662579.jpg";
 import Card from '../Card/Card';
 import Skill from '../Skill/Skill';
+import {Button, Modal} from 'react-bootstrap';
 
 /*const projects = [
     {
@@ -67,13 +68,26 @@ class Projects extends React.Component {
             skill_4: "JavaScript",
             skill_5: "HTML/CSS",
             skill_6: "School Projects",
-            skill_7: "Photoshop"
+            skill_7: "Photoshop",
+
+            //Set the default modal state to false
+            show: false
         };
 
         /*this.onShowAll = this.onShowAll.bind(this);
         this.onShowReact = this.onShowReact.bind(this);
         this.onShowBootstrap = this.onShowBootstrap.bind(this);
         this.onShowSchoolProjects = this.onShowSchoolProjects.bind(this);*/
+        this.handleClick = this.handleClick.bind(this);
+        this.closeModal = this.closeModal.bind(this);
+    }
+
+    handleClick = () => {
+        this.setState({show: true});
+    }
+
+    closeModal = () => {
+        this.setState({show: false});
     }
 
     /*onShowAll = () => {
@@ -131,16 +145,25 @@ class Projects extends React.Component {
                 </div>*/}
                 <div className = "row">
                     <div className = "col-lg-3 col-md-3">
-                        <Card title = {this.state.projects.project1.title} image = {this.state.projects.project1.image} text = {this.state.projects.project1.text} />
+                        <Card title = {this.state.projects.project1.title} 
+                                image = {this.state.projects.project1.image} 
+                                text = {this.state.projects.project1.text} 
+                                onClick = {this.showModal} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
-                        <Card title = {this.state.projects.project2.title} image = {this.state.projects.project2.image} text = {this.state.projects.project2.text} />
+                        <Card title = {this.state.projects.project2.title} 
+                                image = {this.state.projects.project2.image} 
+                                text = {this.state.projects.project2.text} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
-                        <Card title = {this.state.projects.project3.title} image = {this.state.projects.project3.image} text = {this.state.projects.project3.text} />
+                        <Card title = {this.state.projects.project3.title} 
+                                image = {this.state.projects.project3.image} 
+                                text = {this.state.projects.project3.text} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
-                        <Card title = {this.state.projects.project4.title} image = {this.state.projects.project4.image} text = {this.state.projects.project4.text} />
+                        <Card title = {this.state.projects.project4.title} 
+                                image = {this.state.projects.project4.image} 
+                                text = {this.state.projects.project4.text} />
                     </div>
                 </div>
                 <div className = "container-fluid d-flex justify-content-left">
@@ -158,6 +181,19 @@ class Projects extends React.Component {
                     <Skill skill = {this.state.skill_6} />
                     <Skill skill = {this.state.skill_7} />
                 </div>*/}
+
+                <div className = "container-fluid d-flex justify-content-left">
+                    <Button onClick = {this.handleClick}>Open Modal</Button>
+                    <Modal show = {this.state.show}>
+                        <Modal.Header closeButton onClick = {this.closeModal}>Header</Modal.Header>
+                        <Modal.Body>Hey we're in the modal body now yayyy</Modal.Body>
+                        <Modal.Footer>
+                            <Button onClick = {this.closeModal}>
+                                Close
+                            </Button>
+                        </Modal.Footer>
+                    </Modal>
+                </div>
             </div>
         );
     }

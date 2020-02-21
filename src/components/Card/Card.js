@@ -12,7 +12,7 @@ class Card extends React.Component {
                     <div className = "card-body text-dark">
                         <h5 className = "card-title">{this.props.title}</h5>
                         <p className = "card-text-text-secondary">{this.props.text}</p>
-                        <button type = "button" href = "#" className = "btn btn-outline-primary">A Button</button>
+                        <button type = "button" href = "#" className = "btn btn-outline-primary" onClick = {this.props.onClick}>A Button</button>
                     </div>
                 </div>
             </div>
