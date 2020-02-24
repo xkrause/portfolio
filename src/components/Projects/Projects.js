@@ -3,7 +3,6 @@ import './Projects.css';
 import Pic from "../../img/yellow-and-black-striped-3662579.jpg";
 import Card from '../Card/Card';
 import Skill from '../Skill/Skill';
-import ProjectModal from '../ProjectModal/ProjectModal';
 
 /*const projects = [
     {
@@ -168,10 +167,6 @@ class Projects extends React.Component {
                     <Skill skill = {this.state.skill_6} />
                     <Skill skill = {this.state.skill_7} />
                 </div>*/}
-
-                <div className = "container-fluid d-flex justify-content-left">
-                    <ProjectModal />
-                </div>
             </div>
         );
     }
