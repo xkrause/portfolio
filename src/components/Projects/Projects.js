@@ -42,22 +42,30 @@ class Projects extends React.Component {
                 project1: {
                     title: "Jammming",
                     image: Pic,
-                    text: "This connects to the Spotify API, a Codecademy Project"
+                    text: "This connects to the Spotify API, a Codecademy Project",
+                    modalHeader: "Jammming",
+                    modalText: "This project was built using React.js to connect to a Spotify account using the Spotify API. Users can create playlists, search for songs to add to the playlists, and add them to Spotify."
                 },
                 project2: {
                     title: "Ticketing System",
                     image: Pic,
-                    text: "This was a ticketing system made for Green River College"
+                    text: "This was a ticketing system made for Green River College",
+                    modalHeader: "Ticketing System",
+                    modalText: "This was a school project where my team built a ticketing system using PHP, jQuery, HTML, and CSS."
                 },
                 project3: {
                     title: "Auburn City Street Mission",
                     image: Pic,
-                    text: "Website for homeless outreach organization"
+                    text: "Website for homeless outreach organization",
+                    modalHeader: "Auburn City Street Mission",
+                    modalText: "This was a freelance project I made for a local homeless outreach organization. Built using Bootstrap."
                 },
                 project4: {
                     title: "ReviewMyResume",
                     image: Pic,
-                    text: "Resume-reviewing service with different purchase plans"
+                    text: "Resume-reviewing service",
+                    modalHeader: "ReviewMyResume",
+                    modalText: "This was a school project where my team built a website for a local resume-reviewing company. Users can choose a purchase plan and upload their resume to be reviewed."
                 }
             },
 
@@ -134,22 +142,29 @@ class Projects extends React.Component {
                         <Card title = {this.state.projects.project1.title} 
                                 image = {this.state.projects.project1.image} 
                                 text = {this.state.projects.project1.text} 
-                                onClick = {this.showModal} />
+                                modalHeader = {this.state.projects.project1.modalHeader}
+                                modalText = {this.state.projects.project1.modalText} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
                         <Card title = {this.state.projects.project2.title} 
                                 image = {this.state.projects.project2.image} 
-                                text = {this.state.projects.project2.text} />
+                                text = {this.state.projects.project2.text} 
+                                modalHeader = {this.state.projects.project2.modalHeader}
+                                modalText = {this.state.projects.project2.modalText} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
                         <Card title = {this.state.projects.project3.title} 
                                 image = {this.state.projects.project3.image} 
-                                text = {this.state.projects.project3.text} />
+                                text = {this.state.projects.project3.text} 
+                                modalHeader = {this.state.projects.project3.modalHeader}
+                                modalText = {this.state.projects.project3.modalText} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
                         <Card title = {this.state.projects.project4.title} 
                                 image = {this.state.projects.project4.image} 
-                                text = {this.state.projects.project4.text} />
+                                text = {this.state.projects.project4.text}
+                                modalHeader = {this.state.projects.project4.modalHeader}
+                                modalText = {this.state.projects.project4.modalText} />
                     </div>
                 </div>
                 <div className = "container-fluid d-flex justify-content-left">

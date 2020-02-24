@@ -12,7 +12,8 @@ class Card extends React.Component {
                 <div className = "card-body text-dark">
                     <h5 className = "card-title">{this.props.title}</h5>
                     <p className = "card-text-text-secondary">{this.props.text}</p>
-                    <ProjectModal />
+                    <ProjectModal modalHeader = {this.props.modalHeader} 
+                                    modalText = {this.props.modalText} />
                 </div>
             </div>
         );

@@ -25,10 +25,10 @@ class ProjectModal extends React.Component {
     render() {
         return (
             <div>
-                <Button onClick = {this.showModal}>Open Modal</Button>
+                <Button onClick = {this.showModal}>Details</Button>
                 <Modal show = {this.state.show}>
-                    <Modal.Header closeButton onClick = {this.closeModal}>Header</Modal.Header>
-                    <Modal.Body>Hey we're in the modal body now yayyy</Modal.Body>
+                    <Modal.Header closeButton onClick = {this.closeModal}>{this.props.modalHeader}</Modal.Header>
+                    <Modal.Body>{this.props.modalText}</Modal.Body>
                     <Modal.Footer>
                         <Button onClick = {this.closeModal}>
                             Close
