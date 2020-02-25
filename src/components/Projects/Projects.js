@@ -63,7 +63,7 @@ class Projects extends React.Component {
                 project4: {
                     title: "ReviewMyResume",
                     image: Pic,
-                    text: "Resume-reviewing service",
+                    text: "Resume-reviewing service made for local client",
                     modalHeader: "ReviewMyResume",
                     modalText: "This was a school project where my team built a website for a local resume-reviewing company. Users can choose a purchase plan and upload their resume to be reviewed."
                 }
