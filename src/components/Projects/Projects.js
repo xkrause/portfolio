@@ -1,6 +1,9 @@
 import React from 'react';
 import './Projects.css';
 import Pic from "../../img/yellow-and-black-striped-3662579.jpg";
+import Review from '../../img/review.png';
+import StreetMission from '../../img/streetmission.png';
+import Ticket from '../../img/ticket.png';
 import Card from '../Card/Card';
 import Skill from '../Skill/Skill';
 
@@ -48,21 +51,21 @@ class Projects extends React.Component {
                 },
                 project2: {
                     title: "Ticketing System",
-                    image: Pic,
+                    image: Ticket,
                     text: "This was a ticketing system made for Green River College",
                     modalHeader: "Ticketing System",
                     modalText: "This was a school project where my team built a ticketing system using PHP, jQuery, HTML, and CSS."
                 },
                 project3: {
                     title: "Auburn City Street Mission",
-                    image: Pic,
+                    image: StreetMission,
                     text: "Website for homeless outreach organization",
                     modalHeader: "Auburn City Street Mission",
                     modalText: "This was a freelance project I made for a local homeless outreach organization. Built using Bootstrap."
                 },
                 project4: {
                     title: "ReviewMyResume",
-                    image: Pic,
+                    image: Review,
                     text: "Resume-reviewing service made for local client",
                     modalHeader: "ReviewMyResume",
                     modalText: "This was a school project where my team built a website for a local resume-reviewing company. Users can choose a purchase plan and upload their resume to be reviewed."
