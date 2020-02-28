@@ -130,7 +130,7 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className = "projects">
                 {/*<div className = "container-fluid d-flex">
                     {
                         this.state.projects.map(project => {
@@ -170,12 +170,6 @@ class Projects extends React.Component {
                                 modalHeader = {this.state.projects.project4.modalHeader}
                                 modalText = {this.state.projects.project4.modalText} />
                     </div>
-                </div>
-                <div className = "container-fluid d-flex justify-content-left">
-                    <span className = "badge badge-pill badge-secondary">React.js</span>
-                    <span className = "badge badge-pill badge-secondary">JavaScript</span>
-                    <span className = "badge badge-pill badge-secondary">Bootstrap</span>
-                    <span className = "badge badge-pill badge-secondary">HTML/CSS</span>
                 </div>
                 {/*<div className = "col-lg-10">
                     <Skill skill = {this.state.skill_1} onClick = {this.onShowAll} />
