@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import Pic from "../../img/yellow-and-black-striped-3662579.jpg";
 import Code from '../../img/code.png';
 import Review from '../../img/review.png';
 import StreetMission from '../../img/streetmission.png';
