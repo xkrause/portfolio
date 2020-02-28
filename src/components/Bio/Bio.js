@@ -6,7 +6,7 @@ class Bio extends React.Component {
         return (
             <div className = "container">
                 <h2>About Me</h2>
-                <p>Xander is from Auburn, Washington where he works as a React.js developer. He has five years experience 
+                <p>Xander is a React.js developer from Auburn, Washington. He has five years experience 
                     working as a freelance web developer using HTML/CSS and Bootstrap, and has been developing in React since 
                     last May. Xander has worked on projects including a resume-reviewing service, pre-launch startup work, and 
                     web design for a homeless outreach organization in Auburn. In his spare time, Xander loves pop-culture, 
