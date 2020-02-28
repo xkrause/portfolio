@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import Pic from "../../img/yellow-and-black-striped-3662579.jpg";
+import Code from '../../img/code.png';
 import Review from '../../img/review.png';
 import StreetMission from '../../img/streetmission.png';
 import Ticket from '../../img/ticket.png';
@@ -44,7 +45,7 @@ class Projects extends React.Component {
             projects: {
                 project1: {
                     title: "Jammming",
-                    image: Pic,
+                    image: Code,
                     text: "This connects to the Spotify API, a Codecademy Project",
                     modalHeader: "Jammming",
                     modalText: "This project was built using React.js to connect to a Spotify account using the Spotify API. Users can create playlists, search for songs to add to the playlists, and add them to Spotify."

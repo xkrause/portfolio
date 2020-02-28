@@ -3,10 +3,10 @@
 }
 
 body {
-    overflow: hidden;
-    background: url(../../img/textured-background.jpg) no-repeat center center fixed; 
+    background: url(../../img/background-texture.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
