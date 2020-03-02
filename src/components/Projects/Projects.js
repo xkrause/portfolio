@@ -146,32 +146,28 @@ class Projects extends React.Component {
                                 image = {this.state.projects.project1.image} 
                                 text = {this.state.projects.project1.text} 
                                 modalHeader = {this.state.projects.project1.modalHeader}
-                                modalText = {this.state.projects.project1.modalText}
-                                button = {this.state.projects.project1.button} />
+                                modalText = {this.state.projects.project1.modalText} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
                         <Card title = {this.state.projects.project2.title} 
                                 image = {this.state.projects.project2.image} 
                                 text = {this.state.projects.project2.text} 
                                 modalHeader = {this.state.projects.project2.modalHeader}
-                                modalText = {this.state.projects.project2.modalText}
-                                button = {this.state.projects.project2.button} />
+                                modalText = {this.state.projects.project2.modalText} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
                         <Card title = {this.state.projects.project3.title} 
                                 image = {this.state.projects.project3.image} 
                                 text = {this.state.projects.project3.text} 
                                 modalHeader = {this.state.projects.project3.modalHeader}
-                                modalText = {this.state.projects.project3.modalText} 
-                                button = {this.state.projects.project3.button}/>
+                                modalText = {this.state.projects.project3.modalText} />
                     </div>
                     <div className = "col-lg-3 col-md-3">
                         <Card title = {this.state.projects.project4.title} 
                                 image = {this.state.projects.project4.image} 
                                 text = {this.state.projects.project4.text}
                                 modalHeader = {this.state.projects.project4.modalHeader}
-                                modalText = {this.state.projects.project4.modalText}
-                                button = {this.state.projects.project1.button} />
+                                modalText = {this.state.projects.project4.modalText} />
                     </div>
                 </div>
                 {/*<div className = "col-lg-10">
