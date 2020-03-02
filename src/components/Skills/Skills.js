@@ -8,7 +8,6 @@ class Skills extends React.Component {
                     <span className = "badge badge-pill badge-secondary">React.js</span>
                     <span className = "badge badge-pill badge-secondary">JavaScript</span>
                     <span className = "badge badge-pill badge-secondary">Bootstrap</span>
-                    <span className = "badge badge-pill badge-secondary">HTML/CSS</span>
                 </div>
             </div>
         );
