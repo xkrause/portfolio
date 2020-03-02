@@ -5,11 +5,7 @@ class Nav extends React.Component {
     render() {
         return (
             <div>
-                <ul>
-                    <li>Bio</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                </ul>
+                
             </div>
         );
     }
