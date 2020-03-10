@@ -141,28 +141,28 @@ class Projects extends React.Component {
                     }
                 </div>*/}
                 <div className = "row">
-                    <div className = "col-lg-3 col-md-3">
+                    <div className = "col-lg-3 col-md-6">
                         <Card title = {this.state.projects.project1.title} 
                                 image = {this.state.projects.project1.image} 
                                 text = {this.state.projects.project1.text} 
                                 modalHeader = {this.state.projects.project1.modalHeader}
                                 modalText = {this.state.projects.project1.modalText} />
                     </div>
-                    <div className = "col-lg-3 col-md-3">
+                    <div className = "col-lg-3 col-md-6">
                         <Card title = {this.state.projects.project2.title} 
                                 image = {this.state.projects.project2.image} 
                                 text = {this.state.projects.project2.text} 
                                 modalHeader = {this.state.projects.project2.modalHeader}
                                 modalText = {this.state.projects.project2.modalText} />
                     </div>
-                    <div className = "col-lg-3 col-md-3">
+                    <div className = "col-lg-3 col-md-6">
                         <Card title = {this.state.projects.project3.title} 
                                 image = {this.state.projects.project3.image} 
                                 text = {this.state.projects.project3.text} 
                                 modalHeader = {this.state.projects.project3.modalHeader}
                                 modalText = {this.state.projects.project3.modalText} />
                     </div>
-                    <div className = "col-lg-3 col-md-3">
+                    <div className = "col-lg-3 col-md-6">
                         <Card title = {this.state.projects.project4.title} 
                                 image = {this.state.projects.project4.image} 
                                 text = {this.state.projects.project4.text}
