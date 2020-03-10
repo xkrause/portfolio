@@ -59,7 +59,7 @@ class Projects extends React.Component {
                 project3: {
                     title: "Auburn City Street Mission",
                     image: StreetMission,
-                    text: "Website for homeless outreach organization",
+                    text: "Website for local homeless outreach organization",
                     modalHeader: "Auburn City Street Mission",
                     modalText: "This was a freelance project I made for a local homeless outreach organization. Built using Bootstrap."
                 },
