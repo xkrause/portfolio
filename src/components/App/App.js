@@ -5,6 +5,7 @@ import Nav from '../Nav/Nav';
 import Projects from '../Projects/Projects';
 import Bio from '../Bio/Bio';
 import Skills from '../Skills/Skills';
+import Social from '../Social/Social';
 
 class App extends React.Component {
     render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
                 <Header />
                 <Skills />
                 <Bio />
+                <Social />
                 <Projects />
             </div>
         );
